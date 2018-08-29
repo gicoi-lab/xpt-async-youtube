@@ -1,0 +1,22 @@
+{
+  "name": "xpt-youtube",
+  "main": "xpt-youtube.js",
+  "authors": [
+    "JunYuan Yan <jyyan.tw@gmail.com>"
+  ],
+  "description": "async load youtube",
+  "keywords": [
+    "async",
+    "youtube",
+    "loading"
+  ],
+  "license": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
