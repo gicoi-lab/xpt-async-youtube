@@ -1,0 +1,32 @@
+{
+  "name": "xpt-youtube",
+  "main": "xpt-youtube.js",
+  "authors": [
+    "JunYuan Yan <jyyan.tw@gmail.com>"
+  ],
+  "description": "async load youtube",
+  "keywords": [
+    "async",
+    "youtube",
+    "loading"
+  ],
+  "license": "",
+  "homepage": "https://github.com/gicoi-engine/xpt-async-youtube",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "33a1ec5d9a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "33a1ec5d9a44f3e3bdc594c7d06784a0c3e41fc2"
+  },
+  "_source": "https://github.com/gicoi-engine/xpt-async-youtube.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/gicoi-engine/xpt-async-youtube.git",
+  "_direct": true
+}
