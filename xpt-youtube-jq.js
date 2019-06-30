@@ -34,6 +34,6 @@ $.xptYoutubeReload = function () {
   return true;
 }
 
-( function() {
+$(function(){
   $.xptYoutubeReload();
-} )();
+});
