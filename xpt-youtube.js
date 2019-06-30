@@ -1,8 +1,7 @@
 /*
   credit : https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743
   */
-( function() {
-
+function xptYoutubeReload () {
   var youtube = document.querySelectorAll( ".youtube" );
 
   for (var i = 0; i < youtube.length; i++) {
@@ -27,5 +26,8 @@
       this.appendChild( iframe );
     } );
   };
+}
 
+( function() {
+  xptYoutubeReload();
 } )();
