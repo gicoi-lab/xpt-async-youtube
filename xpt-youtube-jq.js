@@ -10,7 +10,7 @@ $.xptYoutubeReload = function () {
     $(this).find('img').remove();
     $(this).find('iframe').remove();
 
-    console.log($(this).data('embed'));
+    /* console.log($(this).data('embed')); */
     if ($(this).data('embed').length > 0){
     var source = "https://img.youtube.com/vi/"+ $(this).data('embed') +"/sddefault.jpg";
     var image = new Image();
