@@ -12,7 +12,7 @@ $.xptYoutubeReload = function () {
 
     /* console.log($(this).data('embed')); */
     if ($(this).data('embed').length > 0){
-    var source = "https://img.youtube.com/vi/"+ $(this).data('embed') +"/sddefault.jpg";
+    var source = "https://img.youtube.com/vi/"+ $(this).data('embed') +"/hqdefault.jpg";
     var image = new Image();
     image.src = source;
 
